@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,11 @@
     <!--la prima parte della pagina composta dal titolo e le foto-->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
-        <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="London Eye">
-        <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="London Harbour at night_1">
-        <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="London Harbour at night_2">
+        <div>
+            <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="London Eye">
+            <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="London Harbour at night_1">
+            <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="London Harbour at night_2">
+        </div>
     </header>
     <hr>
     <main>
@@ -20,31 +22,40 @@
         <div class="main" id="my-expenses">
             <h3>Le mie spese</h3>
             <table>
-                <tr>
-                    <td><strong>Numero</strong></td>
-                    <td><strong>Descrizione</strong></td>
-                    <td><strong>Costo</strong></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>Totale</td>
-                    <td></td>
-                    <td>360€</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>Totale</td>
+                        <td></td>
+                        <td>360€</td>
+                    </tr>
+                </tfoot>
+
             </table>
         </div>
         <hr>
